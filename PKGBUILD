@@ -1,4 +1,4 @@
-_deb='https://github.com/xanmod/linux/releases/download/5.18.8-xanmod1/linux-headers-5.18.8-xanmod1-x64v2_5.18.8-xanmod1-x64v2-0.git20220630.68a54d9_amd64.deb'
+_deb='https://github.com/xanmod/linux/releases/download/5.18.10-xanmod1/linux-headers-5.18.10-xanmod1-x64v2_5.18.10-xanmod1-x64v2-0.git20220708.997a16a_amd64.deb'
 pkgname=linux-xanmod-edge-bin-headers
 pkgbase=linux-xanmod-edge-bin
 _kernel=$(echo "$_deb" | sed 's/^.*linux-headers-\([^_]*\).*$/\1/')
